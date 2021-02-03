@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: rgb(29, 28, 28);
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-image: url("facebook.jpg");
+    background-size: cover;
+    position: center;
+}
+.logo{
+    display: inline-block;
+    margin: 8px 50px;
+    height: 50px;
+    width: 70px;
+    
+    
+}
+.menu{
+    background: rgba(0, 0, 0, 0.534);
+    text-align: center;
+    font-weight: 10px;
+    
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: #d8caca;
+    font-size: 18px;
+    text-align: center;
+}
+.menu ul li{
+    width: 80px;
+    margin: 2px;
+    border: 1px solid rgb(119, 105, 105);
+    border-radius: 20px;
+    line-height: 40px;
+    box-shadow: 0px solid black;
+    border-width: 0px;
+    box-sizing: 0px;
+}
+.menu ul li:hover{
+    background: rgb(245, 6, 173);
+    color: black;
+}
+#signup{
+    border: 1px solid rgb(119, 105, 105);
+    border-radius: 30px;
+    box-shadow: 1px solid black;
+    border-width: 1px;
+    box-sizing: 0px;
+    font-size: 12px;
+    line-height: 40px;
+    background-color: rgb(109, 1, 94);
+}
+#signup:hover{
+    background: black;
+    color: rgb(245, 6, 173);
+}
+
+.h1{
+    text-align: left;
+    margin: 30px;
+    padding: 20px;
+    padding-top: 150px;
+    color: white;
+    font-size: 70px;
+}
+.prah{
+    text-align: left;
+    margin: 30px;
+    padding: 20px;
+    padding-top: 160px;
+    color: white;
+    font-size: 20px; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.list{
+    text-align: center;
+    font-weight: 10px;
+    position: relative;
+    
+}
+.list ul{
+    display: inline-flex;
+    list-style: none;
+    color: #d8caca;
+    font-size: 12px;
+    text-align: center;
+}
+.list ul li{
+    width: 140px;
+    margin: 8px;
+    border: 1px solid rgb(119, 105, 105);
+    border-radius: 20px;
+    line-height: 40px;
+    box-shadow: 1px solid white;
+    border-width: 1px;
+    box-sizing: px;
+}
+.list ul li:hover{
+    background: rgb(1, 83, 77);
+    color: solid black;
+}
+ #about{
+    background: rgb(34, 30, 30);
+    background-position: center;
+    background-size: cover;
+}
+.join{
+    background: rgba(34, 31, 31, 0.952);
+    text-align: center;
+    font-weight: 10px;
+}
+.h2{
+    text-align: center;
+    color: #fff;
+    padding-top: 70px;
+    font-size: 22px;
+}
+.button{
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.button ul{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.button ul li{
+    position: relative;
+    list-style: none;
+    width: 100px;
+    height: 100px;
+    margin: 0 30px;
+}
+
+.list1{
+    text-align: center;
+    font-weight: 10px;
+    position: relative;
+    top: auto;
+    
+}
+.list1 ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fcfcfc;
+    font-size: 12px;
+    text-align: center;
+}
+.list1 ul li{
+    width: 140px;
+    margin: 8px;
+    border: 1px solid rgb(119, 105, 105);
+    border-radius: 20px;
+    line-height: 40px;
+    box-shadow: 1px solid white;
+    border-width: 1px;
+    box-sizing: 20px;
+    
+    
+}
+.list1 ul li:hover{
+    background: rgb(250, 6, 6);
+    color: solid black;
+}
+#portfolios{
+    background: black;
+    margin: 0;
+    padding: 0;
+}
+.h3{
+    text-align: center;
+    padding-top: 30px;
+    color: whitesmoke;
+}
+.p2{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 5px;
+    font-size: 12px;
+}
+.square{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center; 
+}
+.square span:nth-child(1){
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0.5s;
+    animation: animate 6s linear infinite;
+}
+.square:hover span:nth-child(1){
+    border: none;
+    background: rgb(241, 119, 139);
+}
+.square span:nth-child(2){
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0.5s;
+    animation: animate 4s linear infinite;
+}
+.square:hover span:nth-child(2){
+    border: none;
+    background: rgb(241, 119, 139);
+}
+.square span:nth-child(3){
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0.5s;
+    animation: animate2 10s linear infinite;
+}
+.square:hover span:nth-child(3){
+    border: none;
+    background: rgb(241, 119, 139);
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes animate2{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.content{
+    position: relative;
+    padding: 40px 60px;
+    color: #fff;
+    text-align: center;
+    transition: 0.5s;
+    z-index: 1000;
+    left: 30%;
+    top: 10%;
+}
+
+.square2{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center; 
+}
+.square2 span:nth-child(1){
+    position: absolute;
+    top: -90%;
+    left: 180%;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0.5s;
+    animation: animate 6s linear infinite;
+}
+.square2:hover span:nth-child(1){
+    border: none;
+    background: rgb(135, 0, 139);
+}
+.square2 span:nth-child(2){
+    position: absolute;
+    top: -90%;
+    left: 180%;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0.5s;
+    animation: animate 4s linear infinite;
+}
+.square2:hover span:nth-child(2){
+    border: none;
+    background: rgb(135, 0, 139);
+}
+.square2 span:nth-child(3){
+    position: absolute;
+    top: -90%;
+    left: 180%;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0.5s;
+    animation: animate2 10s linear infinite;
+}
+.square2:hover span:nth-child(3){
+    border: none;
+    background: rgb(135, 0, 139);
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes animate2{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.content2{
+    position: relative;
+    padding: 40px 60px;
+    color: #fff;
+    text-align: center;
+    transition: 0.5s;
+    z-index: 10;
+    left: 180%;
+    top: -80%;
+}
